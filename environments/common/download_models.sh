@@ -9,6 +9,8 @@
 #         ~~~~~~~~~~~~~~
 # ###################################
 
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+
 if [ ! -e environment.sh ]; then
   echo '  envionment.sh file is missing'
   exit
@@ -145,3 +147,12 @@ if [[ -v version_xios && -n ${version_xios} ]]; then
   fi
 
 fi
+
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo "                                        "
+echo "      To compile RECOWA system :        "
+echo "                                        "
+echo "    https://recowa.readthedocs.io/      "
+echo "                                        "
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+
